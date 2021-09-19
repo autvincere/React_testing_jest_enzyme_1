@@ -34,6 +34,7 @@ const useTodos = () => {
     newTodos.splice(i, 1);
     setTodos(newTodos);
   };
+
   return {
     todos,
     addTodo,

@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow, mount, configure } from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import useTodos from "../../custom-hooks/useTodos";
 
 configure({ adapter: new Adapter() });

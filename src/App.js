@@ -8,7 +8,7 @@ const App = () => {
   const { addTodo, completeTodo, removeTodo, todos } = useTodos();
 
   return (
-    <div className="app">
+    <div className="app"> 
       <div className="todo-list">
         <TodoForm addTodo={addTodo} />
         {todos.map((todo, i) => (
